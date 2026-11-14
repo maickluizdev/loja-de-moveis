@@ -1,0 +1,16 @@
+{
+  "name": "loja-moveis",
+  "version": "1.1.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "engines": { "node": ">=20.6" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.4.0",
+    "pg": "^8.13.0"
+  }
+}
